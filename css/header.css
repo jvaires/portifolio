@@ -1,0 +1,28 @@
+.header{
+    background: #aa8ee7;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 1.9rem;
+    padding: 10px 20px;
+    color: #fff ;
+    display: block;
+}
+.header-menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.header-menu a{
+    text-decoration: none;
+    font-size: 1.125rem;
+    padding: 10px 20px;
+    color: #fff ;
+    display: block;
+}
+.header-menu li{
+    list-style: none;
+}
