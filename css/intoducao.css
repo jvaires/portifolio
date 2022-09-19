@@ -8,12 +8,21 @@
 
 .emoji{
     width: 50px;
+    position: relative;
+    top: 100px;
 }
-
+.apresentacao{
+    display: flex;
+    margin-top: 50px;
+}
+.perfil{
+    width: 400px;
+}
 .apresentacao .oi{
     font-size: 22px;
     color: #676767;
-    margin: 0px 0px 0px 0px;}
+    margin: 0px 0px 0px 0px;
+}
 .apresentacao h2{
     font-size: 4rem;
     color: #483797;
@@ -24,7 +33,12 @@
     color: #676767;
     margin: 0px 0px 50px 0px;
 }
-
+.right{
+    margin: auto;
+}
+.left{
+    margin: auto;
+}
 .texto{
     display: block;
     background: #AA8EE7;
@@ -32,4 +46,5 @@
     height:200px;
     padding: 30px;
     border-radius: 10px;
+    color: #fff;
 }
