@@ -1,0 +1,26 @@
+.informacoes{
+  display: grid;
+  grid-template-columns: 500px 500px;
+  justify-content: center;
+  gap: 20px;
+}
+.informacoes h2{
+  font-size: 50px;
+  color: #483797;
+}
+.bloco-nota{
+  background: #AA8EE7;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  width: 400px;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+}
+.competencias{
+  grid-column: 1;
+  grid-row: 2;
+}
+.formacao{
+  grid-column: 2;
+  grid-row: 1;
+}
