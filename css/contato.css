@@ -1,0 +1,19 @@
+.contato{
+  background: #AA8EE7;
+  margin-top: 200px;
+  height: 250px;
+}
+.redes-contato{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+.redes-contato img{
+  width: 70px;
+}
+.titulo-contato{
+  text-align: center;
+  color: #fff;
+  font-size: 60px;
+}
