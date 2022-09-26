@@ -15,6 +15,12 @@
   border-radius: 5px;
   width: 400px;
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+  color: #20135A;
+  font-weight: bold;
+}
+.bloco-nota span{
+  color: #5E4CB0;
+  font-weight: 500;
 }
 .competencias{
   grid-column: 1;
@@ -23,4 +29,12 @@
 .formacao{
   grid-column: 2;
   grid-row: 1;
+}
+.lista{
+  color: #5E4CB0;
+  font-size: 20px;
+  font-weight: 600;
+}
+.list-title{
+  margin-bottom: 0px;
 }
